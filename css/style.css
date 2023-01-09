@@ -103,7 +103,7 @@ a {
 }
 
 .imge {
-  position: fixed;
+  position: absolute;
   right: 150px;
   max-width: 450px;
   max-height: 400px;
