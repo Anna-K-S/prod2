@@ -1,0 +1,161 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font: 400 16px/1  'Manrope', sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /*наследование цвета */
+}
+
+
+.d-flex {
+  display: flex;
+}
+
+.align-item-center {
+  align-items: center;
+}
+
+.container {
+  padding: 0 30px;
+  margin: auto;
+}
+
+.header {
+ padding: 40px 0px;
+ position: absolute;
+ left: 0px;
+ top: 0px;
+ background-color: white;
+ width: 100%;
+}
+
+.main-header-nav {
+  color: #141414;
+  font-size: 16px;
+  margin-left: 37px;
+  line-height: 32px;
+}
+
+.img-left {
+  float: left;
+  margin: 0 11px 0 0 ;
+}
+
+.info-header-nav{
+  color: #141414;
+  font-size: 17px;
+  margin-left: 203px;
+  line-height: 32px;
+}
+
+.home {
+  color: #5C8692;
+}
+
+.info-header-nav a + a {
+  margin-left: 36px;
+}
+
+.contact-us-logos {
+  margin-left: 25px;
+  line-height: 33px;
+}
+
+ .f-logo{
+  float: left;
+  margin: 0 10px 0 0 ;
+}
+ 
+.t-logo {
+  float: left;
+  margin: 0 10px 0 0 ;
+}
+
+.reserv {
+  color: white;
+  font-size: 14px;
+  background-color: #5C8692;
+  margin: 70px;
+  padding: 25px;
+}
+
+.inner {
+  height: 100vh;
+  background: #dbecf0;
+  padding-top: 113.67px;
+}
+
+.bg-imge {
+  position: absolute;
+  right: 1%;
+  width: 540px;
+  height: 640px;
+  top: 20%;
+  border: 10px solid #5C8692;
+  border-radius: 0px;
+  margin-right: 50px;
+}
+
+.imge {
+  position: fixed;
+  right: 150px;
+  max-width: 450px;
+  max-height: 400px;
+  margin: 80px;
+  z-index: 1;
+  filter: drop-shadow(1px 0px 18px rgba(0, 0, 0, 0.2));
+}
+
+
+.upper-banner-text {
+ color: #5C8692;
+ font-size: 15px;
+ line-height: 1.2px;
+ letter-spacing: 1.5px;
+ max-width: 483px;
+ text-transform: uppercase;
+ position: absolute;
+ margin: 170px 219px;
+ left: -59px;
+}
+
+.banner-title {
+  color: #141414;
+  font-size: 55px;
+  font-family:'Playfair Display', serif;
+  line-height: 71.5px;
+  letter-spacing: 0.66px;
+  max-width: 396px;
+  position: absolute;
+  margin: 200px 120px;
+  left: -1px;
+}
+
+.botton-banner-text {
+  color: #555555;
+  font-size: 19px;
+  line-height: 30.4px;
+  max-width: 483px;
+  position: absolute;
+  margin: 419px 120px;
+  left: -1px;
+}
+
+.bnt {
+position: absolute;
+max-width: 238px;
+color: white;
+font-size: 14px;
+letter-spacing: 1.56px;
+text-transform: uppercase;
+padding: 30px;
+margin: 550px 88px;
+background: #5C8692;
+border: 2px solid #5C8692;
+}
